@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		5E1DA4A423CA268600BC7B3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1DA4A323CA268600BC7B3A /* AppDelegate.swift */; };
 		5E1DA4A623CA268600BC7B3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1DA4A523CA268600BC7B3A /* SceneDelegate.swift */; };
-		5E1DA4A823CA268600BC7B3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1DA4A723CA268600BC7B3A /* ViewController.swift */; };
 		5E1DA4AB23CA268600BC7B3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1DA4A923CA268600BC7B3A /* Main.storyboard */; };
-		5E1DA4AD23CA268900BC7B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1DA4AC23CA268900BC7B3A /* Assets.xcassets */; };
 		5E1DA4B023CA268900BC7B3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E1DA4AE23CA268900BC7B3A /* LaunchScreen.storyboard */; };
+		5E1DA4B923CA270900BC7B3A /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1DA4B823CA270900BC7B3A /* WeatherViewController.swift */; };
+		5E1DA4BC23CA277C00BC7B3A /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1DA4BB23CA277C00BC7B3A /* WeatherData.swift */; };
+		5E1DA4BE23CA27A200BC7B3A /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1DA4BD23CA27A200BC7B3A /* WeatherManager.swift */; };
+		5E1DA4C023CA27C000BC7B3A /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1DA4BF23CA27C000BC7B3A /* WeatherModel.swift */; };
+		5EF5107323CC9562003B346E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF5107223CC9562003B346E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E1DA4A023CA268600BC7B3A /* Hawa - Second.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hawa - Second.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1DA4A023CA268600BC7B3A /* Hawa Weather App .app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hawa Weather App .app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1DA4A323CA268600BC7B3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E1DA4A523CA268600BC7B3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E1DA4A723CA268600BC7B3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5E1DA4AA23CA268600BC7B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5E1DA4AC23CA268900BC7B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E1DA4AF23CA268900BC7B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E1DA4B123CA268900BC7B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E1DA4B823CA270900BC7B3A /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		5E1DA4BB23CA277C00BC7B3A /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		5E1DA4BD23CA27A200BC7B3A /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		5E1DA4BF23CA27C000BC7B3A /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		5EF5107223CC9562003B346E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +46,7 @@
 		5E1DA49723CA268600BC7B3A = {
 			isa = PBXGroup;
 			children = (
-				5E1DA4A223CA268600BC7B3A /* Hawa - Second */,
+				5E1DA4A223CA268600BC7B3A /* Hawa  */,
 				5E1DA4A123CA268600BC7B3A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +54,66 @@
 		5E1DA4A123CA268600BC7B3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E1DA4A023CA268600BC7B3A /* Hawa - Second.app */,
+				5E1DA4A023CA268600BC7B3A /* Hawa Weather App .app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E1DA4A223CA268600BC7B3A /* Hawa - Second */ = {
+		5E1DA4A223CA268600BC7B3A /* Hawa  */ = {
 			isa = PBXGroup;
 			children = (
 				5E1DA4A323CA268600BC7B3A /* AppDelegate.swift */,
 				5E1DA4A523CA268600BC7B3A /* SceneDelegate.swift */,
-				5E1DA4A723CA268600BC7B3A /* ViewController.swift */,
-				5E1DA4A923CA268600BC7B3A /* Main.storyboard */,
-				5E1DA4AC23CA268900BC7B3A /* Assets.xcassets */,
-				5E1DA4AE23CA268900BC7B3A /* LaunchScreen.storyboard */,
 				5E1DA4B123CA268900BC7B3A /* Info.plist */,
+				5E1DA4BA23CA276000BC7B3A /* Model */,
+				5E1DA4C123CA27EB00BC7B3A /* View */,
+				5E1DA4B723CA26C300BC7B3A /* Controller */,
+				5EF5107223CC9562003B346E /* Assets.xcassets */,
+				5EF5107423CC964D003B346E /* Launch Screen */,
 			);
-			path = "Hawa - Second";
+			path = "Hawa ";
+			sourceTree = "<group>";
+		};
+		5E1DA4B723CA26C300BC7B3A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5E1DA4B823CA270900BC7B3A /* WeatherViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5E1DA4BA23CA276000BC7B3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E1DA4BB23CA277C00BC7B3A /* WeatherData.swift */,
+				5E1DA4BD23CA27A200BC7B3A /* WeatherManager.swift */,
+				5E1DA4BF23CA27C000BC7B3A /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E1DA4C123CA27EB00BC7B3A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E1DA4A923CA268600BC7B3A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5EF5107423CC964D003B346E /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				5E1DA4AE23CA268900BC7B3A /* LaunchScreen.storyboard */,
+			);
+			path = "Launch Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E1DA49F23CA268600BC7B3A /* Hawa - Second */ = {
+		5E1DA49F23CA268600BC7B3A /* Hawa Weather App  */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E1DA4B423CA268900BC7B3A /* Build configuration list for PBXNativeTarget "Hawa - Second" */;
+			buildConfigurationList = 5E1DA4B423CA268900BC7B3A /* Build configuration list for PBXNativeTarget "Hawa Weather App " */;
 			buildPhases = (
 				5E1DA49C23CA268600BC7B3A /* Sources */,
 				5E1DA49D23CA268600BC7B3A /* Frameworks */,
@@ -82,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = "Hawa - Second";
+			name = "Hawa Weather App ";
 			productName = "Hawa - Second";
-			productReference = 5E1DA4A023CA268600BC7B3A /* Hawa - Second.app */;
+			productReference = 5E1DA4A023CA268600BC7B3A /* Hawa Weather App .app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E1DA49B23CA268600BC7B3A /* Build configuration list for PBXProject "Hawa - Second" */;
+			buildConfigurationList = 5E1DA49B23CA268600BC7B3A /* Build configuration list for PBXProject "Hawa Weather App " */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E1DA49F23CA268600BC7B3A /* Hawa - Second */,
+				5E1DA49F23CA268600BC7B3A /* Hawa Weather App  */,
 			);
 		};
 /* End PBXProject section */
@@ -126,8 +167,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E1DA4B023CA268900BC7B3A /* LaunchScreen.storyboard in Resources */,
-				5E1DA4AD23CA268900BC7B3A /* Assets.xcassets in Resources */,
 				5E1DA4AB23CA268600BC7B3A /* Main.storyboard in Resources */,
+				5EF5107323CC9562003B346E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E1DA4A823CA268600BC7B3A /* ViewController.swift in Sources */,
+				5E1DA4BE23CA27A200BC7B3A /* WeatherManager.swift in Sources */,
+				5E1DA4BC23CA277C00BC7B3A /* WeatherData.swift in Sources */,
+				5E1DA4C023CA27C000BC7B3A /* WeatherModel.swift in Sources */,
+				5E1DA4B923CA270900BC7B3A /* WeatherViewController.swift in Sources */,
 				5E1DA4A423CA268600BC7B3A /* AppDelegate.swift in Sources */,
 				5E1DA4A623CA268600BC7B3A /* SceneDelegate.swift in Sources */,
 			);
@@ -286,12 +330,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A69WHX382;
-				INFOPLIST_FILE = "Hawa - Second/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Hawa /Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Nomad-Qaderi.Hawa---Second";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nomad-Qaderi.Hawa-Weather-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,12 +348,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6A69WHX382;
-				INFOPLIST_FILE = "Hawa - Second/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Hawa /Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Nomad-Qaderi.Hawa---Second";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nomad-Qaderi.Hawa-Weather-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E1DA49B23CA268600BC7B3A /* Build configuration list for PBXProject "Hawa - Second" */ = {
+		5E1DA49B23CA268600BC7B3A /* Build configuration list for PBXProject "Hawa Weather App " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E1DA4B223CA268900BC7B3A /* Debug */,
@@ -328,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E1DA4B423CA268900BC7B3A /* Build configuration list for PBXNativeTarget "Hawa - Second" */ = {
+		5E1DA4B423CA268900BC7B3A /* Build configuration list for PBXNativeTarget "Hawa Weather App " */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E1DA4B523CA268900BC7B3A /* Debug */,
